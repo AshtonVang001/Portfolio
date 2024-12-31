@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My first webpage</title>
+    <style>
+      .head1 {
+        color: white;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: 35px;
+      }
+
+      body {
+        background: url(images/sky2.jpg);
+      }
+
+      .me {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        transition: height 1s, width 1s;
+      }
+
+      .me:hover {
+        height: 600px;
+        width: 600px;
+      }
+
+      .click {
+        text-align: center;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="head1">Welcome!</h1>
+
+    <p class="click">click me</p>
+
+    <a href="secondPage.html"
+      ><img class="me" src="images/IMG_2002.jpg" alt="photo of me"
+    /></a>
+  </body>
+</html>
